@@ -1,0 +1,24 @@
+#%RAML 0.8
+---
+title: link API
+baseUri: http://vapi.ca.com/api{github_username}/{version}
+version: v1
+
+/link:
+   /{Title}:
+     get:
+       description: Retrieve a specific link
+       responses:
+         200:
+           body:
+             application/json:
+              example: |
+                 {
+		"link": http://{Stuff},
+   		 "title": "Long Title",
+ 		   "description": {Title},
+ 		   "url": "URL"
+ 		 },
+ 		 "success": true,
+ 		 "status": 200
+		}
