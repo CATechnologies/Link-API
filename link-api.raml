@@ -1,7 +1,7 @@
 #%RAML 0.8
 ---
 title: link API
-baseUri: http://vapi.ca.com/api{github_username}/{version}
+baseUri: http://vapi.ca.com/api/{github_username}/{version}
 version: v1
 
 /link:
@@ -15,6 +15,7 @@ version: v1
               example: |
                 {
                   "title": {Title},
+                  "user": {github_username},
                   "description": "Description",
                   "url": "http://example.com"
                 }
