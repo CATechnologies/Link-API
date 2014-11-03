@@ -7,7 +7,7 @@ version: v1
 /link:
    /{Title}:
      get:
-      description: Returns link
+      description: Returns links
       responses:
         200:
           body:
@@ -16,5 +16,5 @@ version: v1
                 {
                   "title": {Title},
                   "description": "Description",
-                  url": "http://example.com"
+                  "url": "http://example.com"
                 }
