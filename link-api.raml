@@ -7,17 +7,14 @@ version: v1
 /link:
    /{Title}:
      get:
-       description: Retrieve a specific link
-       responses:
-         200:
-           body:
-             application/json:
+      description: Returns link
+      responses:
+        200:
+          body:
+            application/json:
               example: |
-                 {
-                 "title": {Title},
-                 "description": "This is a description of the link that was saved, something to help you remember the content or context",
-                 "url": "http://example.com"
- 		 },
- 		 "success": true,
- 		 "status": 200
-		}
+                {
+                  "title": {Title},
+                  "description": "Description",
+                  url": "http://example.com"
+                }
