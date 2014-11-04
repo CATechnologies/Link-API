@@ -32,10 +32,10 @@
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
         <h1>
-<a name="link-api" class="anchor" href="#link-api"><span class="octicon octicon-link"></span></a>Link-API</h1>
+<a id="link-api" class="anchor" href="#link-api" aria-hidden="true"><span class="octicon octicon-link"></span></a>Link-API</h1>
 
-<p>A Simple Link Storage and Retrieval API - AKA Bookmark
-<img align="right" height="260" src="https://raw.githubusercontent.com/DevTestSolutions/Link-API/master/7068119915_732dd1ef63_m.jpg">
+<p>A Simple Link Retrieval API - AKA Bookmark
+<img align="right" height="260" src="https://raw.githubusercontent.com/DevTestSolutions/Link-API/master/Puzzle.png">
 Keeping a curated set of your favorite links is a great way to keep track of interesting sites and content.</p>
 
 <p>This simple sample provides a basic Links API option as well as a more advanced (but only mildly) option.</p>
@@ -44,43 +44,7 @@ Keeping a curated set of your favorite links is a great way to keep track of int
 Basic Option - <a href="https://raw.githubusercontent.com/DevTestSolutions/Link-API/master/link-api.raml">https://raw.githubusercontent.com/DevTestSolutions/Link-API/master/link-api.raml</a>
 Advanced Option - <a href="https://raw.githubusercontent.com/DevTestSolutions/Link-API/master/link-api-advanced.raml">https://raw.githubusercontent.com/DevTestSolutions/Link-API/master/link-api-advanced.raml</a></p>
 
-<h1>
-<a name="raml-08" class="anchor" href="#raml-08"><span class="octicon octicon-link"></span></a>%RAML 0.8</h1>
-
-<hr>
-
-<p>title: link API
-baseUri: <a href="http://vapi.ca.com">http://vapi.ca.com</a></p>
-
-<p>/link:
-   /{Title}:
-     get:
-      description: Returns links
-      responses:
-        200:
-          body:
-            application/json:
-              example: |
-                {
-                  "title": {Title},
-                  "user": {github_username},
-                  "description": "Description",
-                  "url": "<a href="http://example.com">http://example.com</a>"
-                }
-      post:
-      description: posts links
-      responses:
-        201:
-          body:
-            application/json:
-              example: |
-                {
-                  "title": {Title},
-                  "user": {github_username},
-                  "description": "Description",
-                  "url": "<a href="http://example.com">http://example.com</a>"
-                }
-Goto <a href="https://vai.ca.com">https://vai.ca.com</a> to try the sample for yourself.</p>
+<p>Goto <a href="https://vai.ca.com">https://vai.ca.com</a> to try the sample for yourself.</p>
       </section>
     </div>
 
