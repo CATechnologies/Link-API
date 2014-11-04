@@ -1,0 +1,6 @@
+GET /link/SAMPLE-Title
+{
+    "title": "SAMPLE-Title",
+    "description": "Description",
+    "url": "http://example.com"
+}
