@@ -11,4 +11,4 @@ Use RAW link(s) for Creating Virtual APIs
 Basic Option - https://raw.githubusercontent.com/DevTestSolutions/Link-API/master/link-api.raml
 Advanced Option - https://raw.githubusercontent.com/DevTestSolutions/Link-API/master/link-api-advanced.raml
 
-Goto https://vapi.ca.com to try the sample for yourself.
+Goto https://vapi.ca.com to create your own Link API from these sample files.
