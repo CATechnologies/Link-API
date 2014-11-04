@@ -8,7 +8,7 @@ Keeping a curated set of your favorite links is a great way to keep track of int
 This simple sample provides a basic Links API option as well as a more advanced (but only mildly) option.
 
 Use RAW link(s) for Creating Virtual APIs
-Basic Option - https://raw.githubusercontent.com/DevTestSolutions/Link-API/master/link-api.raml
+Basic Option - https://raw.githubusercontent.com/DevTestSolutions/Link-API/master/link-api-basic.raml
 Advanced Option - https://raw.githubusercontent.com/DevTestSolutions/Link-API/master/link-api-advanced.raml
 
 Goto https://vapi.ca.com to create your own Link API from these sample files.
