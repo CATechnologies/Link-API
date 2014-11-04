@@ -1,7 +1,7 @@
 Link-API
 ========
 
-A Simple Link Storage and Retrieval API - AKA Bookmark
+A Simple Link Retrieval API - AKA Bookmark
 <img align="right" height="260" src="https://raw.githubusercontent.com/DevTestSolutions/Link-API/master/Puzzle.png">
 Keeping a curated set of your favorite links is a great way to keep track of interesting sites and content.
 
