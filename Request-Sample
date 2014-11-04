@@ -1,6 +1,19 @@
-GET /link/SAMPLE-Title
+Pair 0
+
+Verb: GET URI: /link/SAMPLE-Title
+
+Response body:
 {
-    "title": "SAMPLE-Title",
-    "description": "Description",
-    "url": "http://example.com"
+"title": "SAMPLE-Title",
+"description": "Description",
+"url": "http://example.com"
 }
+
+Pair 1
+Verb: POST  URI: / link/Sample-Title
+Headers: "title": "SAMPLE-Title"
+"description": "Description"
+"url": "http://example.com"
+
+Response body:
+201 Created
